@@ -1,0 +1,67 @@
+body{
+    text-align: center;
+}
+
+
+.barra{
+    position:absolute;
+    width: 19.8%;
+    left: 0%;
+    top: 0%;
+    border: 5px;
+    border-style: groove;
+    border-color: black ;
+    background-color: rgb(191, 205, 243);
+    color:black;
+    
+
+}
+.conteudo{
+    position:absolute;
+    left: 0%;
+    height: min-content;
+    right: 0%;
+    top: 0%;
+    border: 5px;
+    border-style: groove;
+    border-color: black ;
+    background-color: rgb(191, 205, 243);
+
+
+
+
+}
+
+
+h1{
+    padding: 7px;
+
+    border: 2px;
+    border-style: groove;
+    border-color: black ;
+    background-color: rgb(167, 186, 240);
+
+
+}
+h2{
+
+    padding: 7px;
+
+}
+h3{
+
+    font-size: 150%;
+    padding: 7px;
+
+}
+
+h4{
+    padding: 7px;
+    font-size: 150%;
+
+}
+p{
+    padding: 7px;
+    font-size: 120%;
+
+}

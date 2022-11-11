@@ -1,0 +1,31 @@
+.sobre{
+    position:relative;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    border-radius: 1px;
+    border-style: double;
+    border-color: black;
+    text-align: center;
+    background-color: rgb(161, 161, 161);
+    margin-top: 25px;
+
+
+}
+img{
+    border-radius: 25px;
+    position:static;
+    right:80%;
+    padding: 10px;
+    margin: 20px;
+}
+.fotos{
+    border-radius: 5px;
+    border-style: double;
+    border-color: black;
+    text-align: center;
+    margin-top: 25px;
+    position:relative;
+    width: 100%;
+    top:5%;
+}

@@ -1,0 +1,84 @@
+
+body{
+    background-image: url("fundo.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    background-position: left top;
+    padding: 2% 2%;
+
+
+
+}
+a{
+    font-size: 150%;
+    font-weight:bolder;
+    color: rgb(202, 255, 78);
+    margin: 70px;
+
+}
+
+h1{
+    color: rgb(202, 255, 78);
+    font-size: 250%;
+    text-transform: uppercase;
+
+    position: relative ;
+     bottom: 5%;
+}
+
+
+h2{
+    color: rgb(202, 255, 78);
+    font-size: 200%;
+    text-transform: uppercase;
+
+    position: relative ;
+     bottom: 5%;
+}
+
+h3{
+    position: relative ;
+     bottom: 0px;
+     color: rgb(202, 255, 78);
+
+    text-transform: uppercase;
+
+}
+h4{
+    color: rgb(158, 210, 240);
+
+    text-transform: uppercase;
+
+    position: relative ;
+     bottom: 5%;
+}
+
+p{
+    text-transform: uppercase;
+    font-size: 150%;
+}
+img{
+    border-radius: 100px;
+    position:static;
+    right:80%;
+    size: 80%;
+    padding: 10px;
+    margin: 50px;
+}
+.centro{
+    opacity: 97%;
+    background-image: url("fundo_will.png");
+    position:relative;
+    margin-bottom: 50px;
+    left: 1%;
+    top: 5%;
+    width: 95%;
+    border-radius: 15px;
+    color: rgb(158, 210, 240);
+    padding: 1% 1%;
+    padding-left: 5px;
+    float: center;
+    display: inline-table;
+    text-align: center;
+
+

@@ -1,0 +1,291 @@
+
+body{
+    background-repeat: repeat;
+    background-size: 120%;
+    background-position: left top;
+    opacity: 90%;
+    text-align: center;
+    font-weight: 1200;
+}
+h1{
+    position: static;
+    top: 30%;
+
+    font-size: 45px;
+}
+h2{
+    position: static;
+    bottom: 30%;
+    font-family: cursive;
+    font-size: 30px;
+}
+h3{
+    position: absolute;
+    top: 82%;
+    left: 3%;
+    font-size: 20px;
+
+}
+h4{
+position:absolute;
+bottom: 16%;
+left: 3%;
+font-size: 50px;
+
+
+}
+p{
+    font-family: cursive;
+    text-decoration: none;
+
+
+}
+
+
+.nav-link{
+    font-size: 20px;
+    position: relative;
+    color: black;
+    padding: 7px;
+    top: 5%;
+    margin: 1%;
+    margin-right: 0%;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+.lado{
+    position:fixed;
+    width: 15%;
+    left: 0%;
+    top: 0%;
+    bottom: 0%;
+    background-color:rgba(216, 252, 250, 0.911);
+    border: 1px;
+    border-style: groove;
+    border-color: black ;
+    border-top: 0em;
+}
+.topocelular{
+    position: fixed;
+    top: -1500%;
+        opacity: 0;
+        width: 0%;
+        height: 0%;
+    }
+.img{
+    border-radius: 150px;
+    position: relative;
+    top: 1%;
+    height: auto;
+    width: 1200px;
+    bottom: 70%;
+}
+.text{
+    position: relative;
+    bottom:1%;
+
+}
+.centro{
+    position:fixed;
+    left: 15.2%;
+    top: 0%;
+    bottom: 0%;
+    width: 85%;
+    background-repeat: repeat ;
+    background-size: 100%;
+    background-image: url("fundo_pc.png");
+
+
+}
+
+
+.wpp1{
+    width:1px;
+
+    position: relative;
+    top: 10%;
+}
+.conteudo{
+    margin-bottom: 100px;
+    float: left;
+    padding: 50px;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    font-size: 35px;
+    right: 5%;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 0.5em;
+    border-color: black;
+    background-color:rgba(231, 250, 249, 0.911);
+
+
+}
+.modelo1{
+    width: 25%;
+    padding: 12px;
+    border-style: double;
+    border-radius: 100px;
+    border-width: 0.5em;
+    border-color: black;
+    position:relative;
+    background-color: white;
+    display: inline-table;
+
+}
+.modelo2{
+    width: 30%;
+    padding: 12px;
+    margin: 1%;
+    border-style: double;
+    border-radius: 100px;
+    border-width: 0.5em;
+    border-color: black;
+
+    position:relative;
+    background-color: rgba(240, 238, 146, 0.24);
+    display: inline-table;
+
+}
+
+
+
+@media (max-width : 1300px) {
+    .centro{
+
+        font-size: 50%;
+
+
+    }
+    .img{
+    border-radius: 150px;
+    position: relative;
+    top: 1%;
+    height: auto;
+    width: 600px;
+}
+.text{
+    bottom:1%;
+    height: 250px;
+}
+    h1{
+    font-size: 25px;
+    }
+    h4{
+    font-size: 25px;
+    bottom: 3%;
+    }
+
+
+    .nav-link{
+    font-size: 15px;
+
+}
+.wpp{
+    width: 80;
+
+}
+    .conteudo{
+        margin-bottom: 100px;
+        float: left;
+        padding: 50px;
+
+        font-size: 35px;
+        border-style: double;
+        border-radius: 10px;
+        border-width: 0.5em;
+        border-color: black;
+        background-color:rgba(231, 250, 249, 0.911);
+
+
+    }
+
+.lado{
+    font-size: 70%;
+}
+
+
+}
+@media (max-width : 1000px){
+
+    .centro{
+        position:fixed;
+        top: 20%;
+        left:0%;
+        width:100%;
+        background-color: white;
+
+
+    }
+.img{
+    top:10%;
+    width: 950px;
+}
+.text{
+    width: 950px;
+    height:500px;
+    top: 20%;
+}
+.nav-link{
+    font-size: 25px;
+    padding: 50px;
+    margin:20px;
+    padding-bottom: 50px;
+
+}
+.wpp1{
+    width: 0px;
+
+}
+    h1{
+    font-size: 45px;
+    }
+    h4{
+    font-size: 55px;
+    left: 20%;
+    bottom: 25%;
+    }
+
+
+    .conteudo{
+        margin-bottom: 100px;
+        float: left;
+        padding: 50px;
+        position: absolute;
+        top: 20%;
+        left: 0%;
+        font-size: 35px;
+        right: 0%;
+        border-style: double;
+        border-radius: 10px;
+        border-width: 0.5em;
+        border-color: black;
+        background-color:rgba(231, 250, 249, 0.911);
+
+
+    }
+    .topocelular{
+        position:fixed;
+        width: 100%;
+        opacity: 1;
+        left: 0%;
+        top: 0%;
+        height: 20%;
+        background-color:rgba(216, 252, 250);
+        border: 1px;
+        border-style: groove;
+        border-color: black ;
+        border-top: 0em;
+
+    }
+    .lado{
+        opacity: 0;
+        width: 0%;
+        height: 0%;
+    }
+
+
+
+}
